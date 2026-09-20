@@ -2,7 +2,7 @@
 
 A hands-on AWS cloud infrastructure project demonstrating the deployment of a highly available and scalable web application using Amazon EC2, Application Load Balancer (ALB), Auto Scaling Group (ASG), Target Groups, Launch Templates, Security Groups, Ubuntu Server, and Apache Web Server.
 
----
+
 
 ## 📌 Project Overview
 
@@ -16,7 +16,7 @@ The objective of this project was to design and deploy a web application infrast
 - Provide a single public endpoint through an Application Load Balancer
 - Demonstrate real-world troubleshooting of cloud infrastructure
 
----
+
 
 ## 🏗️ Architecture
 
@@ -24,7 +24,7 @@ The objective of this project was to design and deploy a web application infrast
 
 ### High-Level Architecture
 
-```text
+
                          👤 USER
                            │
                            ▼
