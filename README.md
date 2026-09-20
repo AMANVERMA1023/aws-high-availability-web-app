@@ -20,7 +20,7 @@ The objective of this project was to design and deploy a web application infrast
 
 ## 🏗️ Architecture
 
-![AWS Architecture](Architecture/architecture.jpg)
+![AWS Architecture](Archeitecture/archeitecture.jpg)
 
 ### High-Level Architecture
 
