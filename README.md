@@ -330,7 +330,6 @@ The Application Load Balancer receives incoming HTTP requests and distributes th
 
 ![Application Load Balancer](Screenshots/LB.jpg)
 
----
 
 ## 2. Target Group
 
@@ -338,7 +337,7 @@ The Target Group contains the backend EC2 instances and performs health checks b
 
 ![Target Group](Screenshots/TargetGroups.jpg)
 
----
+
 
 ## 3. Auto Scaling Group
 
@@ -346,7 +345,7 @@ The Auto Scaling Group manages the EC2 instances and maintains the desired capac
 
 ![Auto Scaling Group](Screenshots/ASG.jpg)
 
----
+
 
 ## 4. Security Group
 
@@ -354,7 +353,7 @@ Security Groups control the network traffic allowed to the ALB and backend EC2 i
 
 ![Security Group](Screenshots/Security-group.jpg)
 
----
+
 
 ## 5. Server 1
 
@@ -362,7 +361,7 @@ The first EC2 instance runs Apache Web Server.
 
 ![Server 1](Screenshots/Server-1.jpg)
 
----
+
 
 ## 6. Server 2
 
@@ -370,7 +369,7 @@ The second EC2 instance runs Apache Web Server.
 
 ![Server 2](Screenshots/Server-2.jpg)
 
----
+
 
 ## 7. Server 1 SSH
 
@@ -378,7 +377,7 @@ SSH was used to configure and troubleshoot the first EC2 instance.
 
 ![Server 1 SSH](Screenshots/Server-1-ssh.jpg)
 
----
+
 
 ## 8. Server 2 SSH
 
@@ -386,17 +385,12 @@ SSH was used to configure and troubleshoot the second EC2 instance.
 
 ![Server 2 SSH](Screenshots/server-2-ssh.jpg)
 
----
+
 
 ## 9. Elastic IP
 
 Elastic IP configuration used during the infrastructure setup.
 
 ![Elastic IP](Screenshots/Elastic-ip.jpg)
----
 
-## 9. Elastic IP
 
-Elastic IP configuration used during the infrastructure setup.
-
-[Elastic IP](Screenshots/Elastic-ip.jpg)
