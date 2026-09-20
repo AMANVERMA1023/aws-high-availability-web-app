@@ -326,37 +326,33 @@ The current infrastructure can be extended with:
 
 ## 1. Application Load Balancer
 
-The Application Load Balancer receives incoming HTTP requests and
-distributes them across healthy EC2 instances.
+The Application Load Balancer receives incoming HTTP requests and distributes them across healthy EC2 instances.
 
-[Application Load Balancer](Screenshots/LB.jpg)
+![Application Load Balancer](Screenshots/LB.jpg)
 
 ---
 
 ## 2. Target Group
 
-The Target Group contains the backend EC2 instances and performs health
-checks before allowing traffic to reach them.
+The Target Group contains the backend EC2 instances and performs health checks before allowing traffic to reach them.
 
-[Target Group](Screenshots/TargetGroups.jpg)
+![Target Group](Screenshots/TargetGroups.jpg)
 
 ---
 
 ## 3. Auto Scaling Group
 
-The Auto Scaling Group manages the EC2 instances and maintains the
-desired capacity.
+The Auto Scaling Group manages the EC2 instances and maintains the desired capacity.
 
-[Auto Scaling Group](Screenshots/ASG.jpg)
+![Auto Scaling Group](Screenshots/ASG.jpg)
 
 ---
 
 ## 4. Security Group
 
-Security Groups control the network traffic allowed to the ALB and
-backend EC2 instances.
+Security Groups control the network traffic allowed to the ALB and backend EC2 instances.
 
-[Security Group](Screenshots/Security-group.jpg)
+![Security Group](Screenshots/Security-group.jpg)
 
 ---
 
@@ -364,7 +360,7 @@ backend EC2 instances.
 
 The first EC2 instance runs Apache Web Server.
 
-[Server 1](Screenshots/Server-1.jpg)
+![Server 1](Screenshots/Server-1.jpg)
 
 ---
 
@@ -372,24 +368,31 @@ The first EC2 instance runs Apache Web Server.
 
 The second EC2 instance runs Apache Web Server.
 
-[Server 2](Screenshots/Server-2.jpg)
+![Server 2](Screenshots/Server-2.jpg)
 
 ---
 
 ## 7. Server 1 SSH
 
-SSH access was used to configure and troubleshoot the EC2 instance.
+SSH was used to configure and troubleshoot the first EC2 instance.
 
-[Server 1 SSH](Screenshots/Server-1-ssh.jpg)
+![Server 1 SSH](Screenshots/Server-1-ssh.jpg)
 
 ---
 
 ## 8. Server 2 SSH
 
-SSH access was used to configure and troubleshoot the second EC2 instance.
+SSH was used to configure and troubleshoot the second EC2 instance.
 
-[Server 2 SSH](Screenshots/server-2-ssh.jpg)
+![Server 2 SSH](Screenshots/server-2-ssh.jpg)
 
+---
+
+## 9. Elastic IP
+
+Elastic IP configuration used during the infrastructure setup.
+
+![Elastic IP](Screenshots/Elastic-ip.jpg)
 ---
 
 ## 9. Elastic IP
