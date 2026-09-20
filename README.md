@@ -329,7 +329,7 @@ The current infrastructure can be extended with:
 The Application Load Balancer receives incoming HTTP requests and
 distributes them across healthy EC2 instances.
 
-![Application Load Balancer](Screenshots/LB.jpg)
+[Application Load Balancer](Screenshots/LB.jpg)
 
 ---
 
@@ -338,7 +338,7 @@ distributes them across healthy EC2 instances.
 The Target Group contains the backend EC2 instances and performs health
 checks before allowing traffic to reach them.
 
-![Target Group](Screenshots/TargetGroups.jpg)
+[Target Group](Screenshots/TargetGroups.jpg)
 
 ---
 
@@ -347,7 +347,7 @@ checks before allowing traffic to reach them.
 The Auto Scaling Group manages the EC2 instances and maintains the
 desired capacity.
 
-![Auto Scaling Group](Screenshots/ASG.jpg)
+[Auto Scaling Group](Screenshots/ASG.jpg)
 
 ---
 
@@ -356,7 +356,7 @@ desired capacity.
 Security Groups control the network traffic allowed to the ALB and
 backend EC2 instances.
 
-![Security Group](Screenshots/Security-group.jpg)
+[Security Group](Screenshots/Security-group.jpg)
 
 ---
 
@@ -364,7 +364,7 @@ backend EC2 instances.
 
 The first EC2 instance runs Apache Web Server.
 
-![Server 1](Screenshots/Server-1.jpg)
+[Server 1](Screenshots/Server-1.jpg)
 
 ---
 
@@ -372,7 +372,7 @@ The first EC2 instance runs Apache Web Server.
 
 The second EC2 instance runs Apache Web Server.
 
-![Server 2](Screenshots/Server-2.jpg)
+[Server 2](Screenshots/Server-2.jpg)
 
 ---
 
@@ -380,7 +380,7 @@ The second EC2 instance runs Apache Web Server.
 
 SSH access was used to configure and troubleshoot the EC2 instance.
 
-![Server 1 SSH](Screenshots/Server-1-ssh.jpg)
+[Server 1 SSH](Screenshots/Server-1-ssh.jpg)
 
 ---
 
@@ -388,7 +388,7 @@ SSH access was used to configure and troubleshoot the EC2 instance.
 
 SSH access was used to configure and troubleshoot the second EC2 instance.
 
-![Server 2 SSH](Screenshots/server-2-ssh.jpg)
+[Server 2 SSH](Screenshots/server-2-ssh.jpg)
 
 ---
 
@@ -396,4 +396,4 @@ SSH access was used to configure and troubleshoot the second EC2 instance.
 
 Elastic IP configuration used during the infrastructure setup.
 
-![Elastic IP](Screenshots/Elastic-ip.jpg)
+[Elastic IP](Screenshots/Elastic-ip.jpg)
